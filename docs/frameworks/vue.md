@@ -239,7 +239,7 @@ export default {
     <button v-if="needRefresh" @click="updateServiceWorker()">
       Reload
     </button>
-    <button @click="close">
+    <button @click="closePromptUpdateSW">
       Close
     </button>
   </div>
